@@ -1,23 +1,26 @@
 {
   "name": "naughtybot",
   "version": "1.0.0",
-  "description": "NSFW Bot for Discord",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "!test"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "bdsm",
-    "kink",
-    "nsfw"
-  ],
-  "author": "Niels van den Dries",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeskullz/NaughtyBot.git"
+  },
+  "keywords": [],
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codeskullz/NaughtyBot/issues"
+  },
+  "homepage": "https://github.com/codeskullz/NaughtyBot#readme",
   "dependencies": {
-    "discord.js": "^14.9.0",
-    "dotenv": "^16.0.3"
+    "discord.js": "^14.9.0"
   },
   "devDependencies": {
-    "eslint": "^8.38.0"
+    "eslint": "^8.39.0"
   }
 }
